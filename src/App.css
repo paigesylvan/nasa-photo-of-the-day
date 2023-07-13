@@ -1,4 +1,6 @@
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -28,11 +30,18 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  max-width: 80%;
+  object-fit: cover;
+}
+
+.nasa-photo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+P {
+  max-width: 80%;
+
 }
